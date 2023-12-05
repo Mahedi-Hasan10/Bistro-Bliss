@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section
       className="lg:h-[700px] h-[500px] bg-cover bg-center max-w-[1600px] bg-no-repeat"
-      style={{ backgroundImage: "url('/hero.png')" }}
+      style={{ backgroundImage: `url('/hero.png')` }}
     >
       <div className=" h-full w-full flex items-center justify-center">
         <div 
