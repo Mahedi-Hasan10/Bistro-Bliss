@@ -16,12 +16,12 @@ const HeroMenuCards = () => {
       data-aos-mirror="true"
       data-aos-once="false"
       data-aos-anchor-placement="top-center"
-    className="max-container">
+    className="max-container w-full ">
       <h2
        className="mt-[92px] lg:text-[55px] md:text-[45px] text-[35px] text-[#2C2F24] font-[500] lg:leading-[60px] leading-[30px] text-center">
         Browse Our Menu
       </h2>
-      <div className="flex lg:flex-nowrap flex-wrap lg:gap-2 gap-6 lg:px-0 px-4 lg:py-[120px] py-[60px]">
+      <div className="flex justify-around flex-wrap lg:gap-2 gap-6 lg:px-0 px-4 lg:py-[120px] py-[60px]">
         <BrowseCard ICON={<BiSolidBowlRice />} TITLE="Breakfast" />
         <BrowseCard ICON={<BiSolidBowlRice />} TITLE="Main Dishes" />
         <BrowseCard ICON={<BiSolidBowlRice />} TITLE="Drinks" />

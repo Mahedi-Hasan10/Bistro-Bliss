@@ -79,7 +79,8 @@ const page = () => {
           <MenuButton TITLE="Drinks" />
           <MenuButton TITLE="Dessert" />
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[15px] justify-center p-4 lg:pb-[130px] md:pb-[60px] pb-[30px]">
+        <div className="flex items-center justify-center w-full">
+        <div className="flex justify-center flex-wrap gap-5 max-w-[80%] items-center p-4 lg:pb-[130px] md:pb-[60px] pb-[30px]">
           {items.map((item) => (
             <MenuCard
               key={item.id}
@@ -89,6 +90,7 @@ const page = () => {
               price={item.price}
             />
           ))}
+        </div>
         </div>
         <OrderApp />
       </div>

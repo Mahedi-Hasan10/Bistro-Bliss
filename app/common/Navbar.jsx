@@ -9,10 +9,10 @@ import { BiPhoneCall } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Link from "next/link";
-import { NEXT_CACHE_REVALIDATE_TAG_TOKEN_HEADER } from "next/dist/lib/constants";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import app from "../firebase/firebase.init";
 import { useState } from "react";
+
 const NavbarFun = () => {
   const auth = getAuth(app);
   const [loginUser, setLoginUser] = useState({});
@@ -23,7 +23,6 @@ const NavbarFun = () => {
       // console.log("user loged out");
     }
   });
-  console.log(loginUser); 
   const handleSignOut = () => {
     signOut(auth)
       .then(() => {

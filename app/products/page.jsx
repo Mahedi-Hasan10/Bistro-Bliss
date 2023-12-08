@@ -36,7 +36,7 @@ const Page = () => {
         </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[15px] justify-center p-4 lg:pb-[130px] md:pb-[60px] pb-[30px]">
-          {items.map((item) => (
+          {items && items.map((item) => (
             <div
               key={item.id}
               className="max-w-[306px] flex flex-col items-center gap-[30px] border rounded-2xl hover:scale-105 transition-all duration-300 cursor-pointer hover:shadow-2xl"

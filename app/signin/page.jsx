@@ -38,7 +38,7 @@ const Page = () => {
           // No user is signed in.
         }
 
-    }, [])
+    }, [auth.currentUser])
 
     const handleGithubClickBtn = () => {
       signInWithPopup(auth, Githubprovider)

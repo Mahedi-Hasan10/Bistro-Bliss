@@ -18,7 +18,7 @@ const Page = () => {
     getData().then((data) => {
       setItem(data.products.find((item) => item.id === parseInt(id)));
     });
-  }, []);
+  }, [id]);
   const {
     title,
     description,

@@ -30,7 +30,7 @@ const HeroAboutUs = () => {
             alt="hero-about-us"
             className="rounded-xl"
           />
-          <div className="lg:absolute lg:bottom-[40px]  lg:right-[-40px] lg:mt-0 mt-[25px] lg:p-[50px] md:p-[40px] p-[30px] lg:max-h-[321px] gap-4 max-w-[411px] bg-[#474747] rounded-xl">
+          <div className="lg:absolute lg:bottom-0  lg:left-[40%] lg:mt-0 mt-[25px] lg:p-[50px] md:p-[40px] p-[30px] lg:max-h-[321px] gap-4 max-w-[411px] bg-[#474747] rounded-xl">
             <h3 className="text-white text-2xl font-bold leading-[30px]">
               Come and visit us
             </h3>

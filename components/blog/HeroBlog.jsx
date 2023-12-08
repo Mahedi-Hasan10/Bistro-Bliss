@@ -16,12 +16,12 @@ const HeroBlog = () => {
             Read all articles
           </a>
         </div>
-        <div className="flex lg:flex-nowrap flex-wrap gap-6">
-          <div className="card max-w-[636px] bg-white shadow-xl">
+        <div className="flex justify-around flex-wrap gap-6">
+          <div className="card bg-white shadow-xl">
             <figure>
-              <Image src="/b0.png" width={636} height={486} alt="burger" />
+              <Image src="/b0.png" width={1200} height={486} alt="burger" />
             </figure>
-            <div className="card-body gap-[15px]">
+            <div className="card-body gap-[15px] py-4">
               <p className="text-[#737865] text-sm font-medium leading-5">
                 January 3, 2023
               </p>

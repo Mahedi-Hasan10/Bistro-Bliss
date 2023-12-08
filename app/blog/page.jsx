@@ -12,7 +12,8 @@ const page = () => {
           need to change to create a truly happens.
         </p>
       </div>
-      <div className=" max-container grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 lg:pb-[138px] lg:px-0 px-4 pb-[50px]">
+      <div className="flex items-center justify-center w-full">
+      <div className=" max-container max-w-[80%] flex flex-wrap gap-6 lg:pb-[138px] lg:px-0 px-4 pb-[50px]">
         <BlogCard />
         <BlogCard />
         <BlogCard />
@@ -25,6 +26,7 @@ const page = () => {
         <BlogCard />
         <BlogCard />
         <BlogCard />
+      </div>
       </div>
     </section>
   );
